@@ -44,6 +44,12 @@ export default function GameScreen() {
             
           </ActivityIndicator>
         )}
+         onMessage={(event) => 
+          {
+              console.log("Message from WebGL:", event.nativeEvent.data);
+              const data = JSON.parse(event.nativeEvent.data);
+              alert("from"+data.Game + "\n" + "Score:"+ data.Score);
+          }}
       /> 
       
       <TouchableOpacity

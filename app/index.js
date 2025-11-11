@@ -177,12 +177,12 @@ const localData =
     } ,
     {
       "game_id": 5,
-      "game_description": "Merge Shoot 2048",
+      "game_description": "Words",
       "game_image_url": "https://games.fun.et/icn/MergeShoot.png",
-      "game_name": "Merge Shoot 2048",
+      "game_name": "Words",
       "game_status": "PUBLISHED",
-      "game_link": "https://games.fun.et/Construct-Games/d657f2ee9d6a3e7e72999fee7ea810f8/",
-      "orientation" : "portrait"
+      "game_link": "http://192.168.1.49:5500/index.html",
+      "orientation" : "landscape"
     }
   ]
 };
